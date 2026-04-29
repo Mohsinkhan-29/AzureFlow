@@ -63,6 +63,7 @@ export function validateConsultation(data) {
     "Cost Optimization",
     "Azure Networking",
     "AI & Copilot Services",
+    "other",
   ];
 
   if (!isString(data.service) || validator.isEmpty(data.service || "")) {

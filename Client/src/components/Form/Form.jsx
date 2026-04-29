@@ -5,15 +5,14 @@ import api from "../../api";
 
 const SERVICES = [
   { value: "", label: "Select a service...", disabled: true },
-  { value: "cloud_migration", label: "Cloud Migration & Lift-Shift" },
-  { value: "infra_setup", label: "Azure Infrastructure Setup" },
-  { value: "devops", label: "DevOps & CI/CD Pipelines" },
-  { value: "kubernetes", label: "Kubernetes & Container Orchestration" },
-  { value: "security", label: "Security & Compliance Audit" },
-  { value: "cost_opt", label: "Cost Optimization & FinOps" },
-  { value: "disaster_rec", label: "Disaster Recovery & Backup" },
-  { value: "ai_ml", label: "AI / ML Workloads on Azure" },
-  { value: "monitoring", label: "Monitoring & Observability" },
+  { value: "Cloud Migration", label: "Cloud Migration & Lift-Shift" },
+  { value: "Azure Infrastructure", label: "Azure Infrastructure Setup" },
+  { value: "DevOps & CI/CD", label: "DevOps & CI/CD Pipelines" },
+  { value: "Data & Analytics", label: "Data & Analytics" },
+  { value: "Security & Compliance", label: "Security & Compliance Audit" },
+  { value: "Cost Optimization", label: "Cost Optimization & FinOps" },
+  { value: "Azure Networking", label: "Azure Networking" },
+  { value: "AI & Copilot Services", label: "AI / ML Workloads on Azure" },
   { value: "other", label: "Other / Not Sure Yet" },
 ];
 
